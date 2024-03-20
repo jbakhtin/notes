@@ -4,3 +4,4 @@
 4. Parallel Programming
 5. Golang patterns
 6. Computer Architecture Book
+7. [Algorithms]()
