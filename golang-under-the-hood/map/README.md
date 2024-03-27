@@ -1,11 +1,15 @@
-# Map в Golang
+## Map в Golang
 
-## Полезные ссылки
+### Полезные ссылки
 1. [Николай Тузов - "Как на самом деле устроен тип Map в Golang? | Golang под капотом" на YouTube](https://www.youtube.com/watch?v=P_SXTUiA-9Y&)
 2. [Исходники Go map на GitHub](https://github.com/golang/go/blob/master/src/runtime/map.go)
 3. [Проверь себя - вопросы о структуре Map c собеседований](../../golang-interview-questions/map)
 
 Map это хэш таблица.
+
+### Схема устройства Map
+
+![](/Users/bakhtin/GolandProjects/notes/golang-under-the-hood/map/map-structure.jpeg "Structure of Map")
 
 ### Операции с Map
 
@@ -39,3 +43,5 @@ type hmap struct {
 	extra *mapextra // optional fields
 }
 ```
+
+Что такое unsafe.Pointer?
